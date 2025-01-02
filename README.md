@@ -78,7 +78,9 @@ Ensure you have the following Python libraries installed:
 
 To install the required libraries, use the following command:
 
+```bash
 pip install numpy pandas scikit-learn matplotlib imbalanced-learn
+```
 
 ## Usage
 
@@ -86,38 +88,45 @@ pip install numpy pandas scikit-learn matplotlib imbalanced-learn
 
 Clone the repository to your local machine:
 
-```bash```
+```bash
 git clone https://github.com/yourusername/Coimbra-Breast-Cancer-Classification.git
 cd Coimbra-Breast-Cancer-Classification
+```
 
 ### Running the Scripts
 
 After cloning the repository and navigating to the project directory, you can run any of the provided scripts. Below are examples of how to run each script:
 
 1. **Run ADASYN resampling script**:
-   ```bash```
+   ```bash
    python adasyn.py
+   ```
 
 2. **Run ADASYN combined results script (comparison and ROC curve)**:
-   ```bash```
+   ```bash
    python adasyn_comb.py
+   ```
    
 3. **Run Original dataset script (without resampling)**:
-   ```bash```
+   ```bash
    python originaldataset.py
+   ```
    
 4. **Run Original dataset combined results script**:
-   ```bash```
+   ```bash
    python originaldataset_comb.py
+   ```
    
 5. **Run SMOTE resampling script**:
-   ```bash```
+   ```bash
    python smote.py
+   ```
    
 6. **Run SMOTE combined results script (comparison and ROC curve)**:
-   ```bash```
+   ```bash
    python smote_comb.py
-
+   ```
+   
 ## Example of Expected Output
 
 Each script will output the following evaluation metrics for the models being evaluated:
@@ -125,36 +134,40 @@ Each script will output the following evaluation metrics for the models being ev
 For each model, you will see a summary similar to this:
 
 ### SVM Model Evaluation:
-```plaintext```
+```plaintext
 Accuracy: 0.91
 Precision: 0.85
 Recall: 0.94
 F1-Score: 0.89
 AUC-ROC: 0.93
+```
 
 ### Random Forest Model Evaluation:
-```plaintext```
+```plaintext
 Accuracy: 0.92
 Precision: 0.88
 Recall: 0.94
 F1-Score: 0.91
 AUC-ROC: 0.95
+```
 
 ### Logistic Regression Model Evaluation:
-```plaintext```
+```plaintext
 Accuracy: 0.90
 Precision: 0.83
 Recall: 0.93
 F1-Score: 0.88
 AUC-ROC: 0.92
+```
 
 ### Decision Tree Model Evaluation:
-```plaintext```
+```plaintext
 Accuracy: 0.87
 Precision: 0.80
 Recall: 0.91
 F1-Score: 0.85
 AUC-ROC: 0.89
+```
 
 ## Model Evaluation Metrics
 
